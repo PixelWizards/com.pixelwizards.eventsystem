@@ -1,0 +1,15 @@
+{
+  "name": "com.pixelwizards.eventsystem",
+  "displayName": "PixelWizards - Event System",
+  "version": "0.1.0-preview.4",
+  "unity": "2018.4",
+  "description": "Pubsub Event System for Unity",
+  "category": null,
+  "author": {
+    "name": "Pixel Wizards",
+    "email": "support@pixelwizards.ca",
+    "url": "www.pixelwizards.ca"
+  },
+  "keywords": [],
+  "dependencies": {}
+}

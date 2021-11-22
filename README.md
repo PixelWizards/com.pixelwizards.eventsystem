@@ -1,2 +1,3 @@
 # com.pixelwizards.eventsystem
-Unity Package wrapper for the C# Messenger Advanced from the Unity Wiki
+
+See Docs folder for details / instructions on how to use
