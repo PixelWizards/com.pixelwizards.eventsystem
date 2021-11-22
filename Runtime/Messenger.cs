@@ -144,7 +144,6 @@ namespace PixelWizards.Shared.EventSystem
 
         private static bool OnListenerRemoving(string eventType, Delegate listenerBeingRemoved)
         {
-            // CHANGED BY BANDAI - Removed errors thrown when removing listeners not there
             var removed = true;
 #if LOG_ALL_MESSAGES
 		        Debug.Log("MESSENGER OnListenerRemoving \t\"" + eventType + "\"\t{" + listenerBeingRemoved.Target + " -> " + listenerBeingRemoved.Method + "}");
