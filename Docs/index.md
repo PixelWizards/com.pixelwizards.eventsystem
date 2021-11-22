@@ -19,9 +19,11 @@ Based on Rod Hyde's "CSharpMessenger" and Magnus Wolffelt's "CSharpMessenger Ext
 ##  Usage examples:
 
 `Messenger.AddListener<GameObject>("prop collected", PropCollected);`
+
 `Messenger.Broadcast<GameObject>("prop collected", prop);`
 
 `Messenger.AddListener<float>("speed changed", SpeedChanged);`
+
 `Messenger.Broadcast<float>("speed changed", 0.5f);`
 
 Messenger cleans up its eventTable automatically upon loading of a new level.
